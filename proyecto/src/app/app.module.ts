@@ -5,12 +5,15 @@ import { AppComponent } from './app.component';
 
 //md-bootstrap
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+//routing
 import { AppRoutingModule } from './app-routing.module';
+import { BorrarComponent } from './borrar/borrar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BorrarComponent
   ],
   imports: [
     BrowserModule,
