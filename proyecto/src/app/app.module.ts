@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 //md-bootstrap
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
   ],
   imports: [
     BrowserModule,
-    MDBBootstrapModule
+    MDBBootstrapModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
